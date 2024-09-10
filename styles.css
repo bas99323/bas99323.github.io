@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+section {
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+}
+
+.splash {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.splash h1 {
+    font-size: 36px;
+    color: #ff0000; 
+
+}
+
+.splash img {
+    border-radius: 50%;
+    border: 5px solid #2196F3;
+}
+
+.splash p {
+    font-size: 18px;
+    color: #666;
+}
+
+hr {
+    border: 2px solid #ff0000; 
+}
+
+section h2 {
+    color: #ff0000; 
+}
+
+.education p {
+    font-style: italic;
+}
+
+.project ul {
+    padding: 3px;
+}
+ul {
+    list-style-type: square;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 10px;
+}
+
+a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff0000; 
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff0000; 
+}
